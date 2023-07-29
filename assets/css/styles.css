@@ -1,0 +1,122 @@
+/* Font do projto
+font-family: Epilogue; 
+400 700 800
+Use -> font-family: 'Epilogue', sans-serif; */
+
+/* REM = Root EM */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+	/* 16px tamnaho padrão dos navegadores */
+	font-size: 62.5%; /* 10px */
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'Epilogue', sans-serif;
+	font-size: 1.6rem;
+
+	padding: 6rem 2.3rem 6.6rem;
+	background: #ece9fd;
+}
+main {
+	max-width: 33rem;
+	margin: 0 auto;
+}
+
+main p:first-child {
+	color: #7158ef;
+
+	font-size: 1.6rem;
+	font-weight: 400;
+
+	line-height: 3.2rem; /* 200% */
+	letter-spacing: 3px;
+
+	text-transform: uppercase;
+
+	margin-bottom: 1.7rem;
+}
+
+h1 {
+	color: #090039;
+
+	font-size: 4rem;
+	font-weight: 800;
+
+	line-height: 4.8rem; /* 120% */
+
+	margin-bottom: 1.5rem;
+}
+
+h1 + p {
+	color: rgba(10, 0, 57, 0.64);
+
+	font-size: 1.6rem;
+
+	font-weight: 400;
+	line-height: 3.2rem; /* 200% */
+	margin-bottom: 3.2rem;
+}
+
+a {
+	color: #090039;
+	font-size: 1.6rem;
+	font-weight: 400;
+
+	line-height: 3.2rem; /* 200% */
+	text-decoration: none;
+}
+a:visited {
+	color: #7158ef;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7158ef;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7158ef;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ul {
+	margin-top: 7.2rem;
+}
+
+ul li {
+	max-width: 25.7rem;
+
+	color: #090039;
+	font-size: 2.4rem;
+	font-weight: 700;
+
+	line-height: 3.2rem; /* 133.333% */
+	display: flex;
+	align-items: flex-start;
+	gap: 3.8rem;
+}
+
+ul li span {
+	color: #090039;
+	font-size: 7.2rem;
+	font-weight: 800;
+
+	line-height: 8rem; /* 111.111% */
+	letter-spacing: -2px;
+}
